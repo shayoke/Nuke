@@ -12,6 +12,9 @@
 		0B864993243E636700586E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B864992243E636700586E65 /* Assets.xcassets */; };
 		0B864996243E636700586E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B864994243E636700586E65 /* Main.storyboard */; };
 		0B8649A2243E636700586E65 /* Nuke_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8649A1243E636700586E65 /* Nuke_2Tests.swift */; };
+		0BDC8B72243E883E00CC5B3A /* NukeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC8B71243E883E00CC5B3A /* NukeViewController.swift */; };
+		0BDC8B74243E885200CC5B3A /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC8B73243E885200CC5B3A /* EventMonitor.swift */; };
+		0BDC8B76243E8AE300CC5B3A /* Nuker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC8B75243E8AE300CC5B3A /* Nuker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 		0B86499D243E636700586E65 /* Nuke 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuke 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B8649A1243E636700586E65 /* Nuke_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nuke_2Tests.swift; sourceTree = "<group>"; };
 		0B8649A3243E636700586E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDC8B71243E883E00CC5B3A /* NukeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NukeViewController.swift; sourceTree = "<group>"; };
+		0BDC8B73243E885200CC5B3A /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		0BDC8B75243E8AE300CC5B3A /* Nuker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nuker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				0B864990243E636500586E65 /* ViewController.swift */,
 				0B864992243E636700586E65 /* Assets.xcassets */,
 				0B864994243E636700586E65 /* Main.storyboard */,
+				0BDC8B71243E883E00CC5B3A /* NukeViewController.swift */,
+				0BDC8B75243E8AE300CC5B3A /* Nuker.swift */,
+				0BDC8B73243E885200CC5B3A /* EventMonitor.swift */,
 				0B864997243E636700586E65 /* Info.plist */,
 				0B864998243E636700586E65 /* Nuke_2.entitlements */,
 			);
@@ -195,8 +204,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDC8B72243E883E00CC5B3A /* NukeViewController.swift in Sources */,
+				0BDC8B76243E8AE300CC5B3A /* Nuker.swift in Sources */,
 				0B864991243E636500586E65 /* ViewController.swift in Sources */,
 				0B86498F243E636500586E65 /* AppDelegate.swift in Sources */,
+				0BDC8B74243E885200CC5B3A /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -334,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
